@@ -44,7 +44,7 @@ ul li a {
 }
 
 ul li a:hover {
-    color: #ff00dd;
+    color: #0004ff;
     /* background-color: #1D4ED8; */
     /* border-radius: 5px;
     padding: 10px; */
@@ -61,9 +61,9 @@ ul li a:hover {
     cursor: pointer;
 }
 
-/* .btn:hover{
-    background: #ff17f0;
-} */
+.btn:hover{
+    background: #1774ff;
+}
 
 
 /* hero section Style */
@@ -130,7 +130,6 @@ ul li a:hover {
     cursor: pointer;
     margin-top: 200px;
 }
-
 
  /* <!-- Meet the Speakers section -->   */
 
@@ -395,6 +394,7 @@ ul li a:hover {
     width: 304px;
     height: 45px;
     margin-top: 220px;
+    cursor: pointer;
 }
 
 .outline-btn:hover{
@@ -412,8 +412,13 @@ ul li a:hover {
     width: 304px;
     height: 45px;
     margin-top: 220px;
+    cursor: pointer;
+    border: none;
+    
 }
-
+.pro-btn:hover{
+    background: #3686ff;
+}
 
 
  /* <!-- FAQ Section --> */
