@@ -413,3 +413,48 @@ ul li a:hover {
     height: 45px;
     margin-top: 220px;
 }
+
+
+
+ /* <!-- FAQ Section --> */
+
+ #faq{
+    padding: 100px 0;
+    background: #f8fafc;
+ }
+
+ #faq h2{
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 50px;
+    color: #0D1b2a;
+}
+
+
+.faq-container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.faq-box{
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: .3s;
+    padding: 20px;
+}
+.faq-box:hover {
+    transform: translateY(-5px);  
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .1);
+}
+
+.faq-box h3{
+    color: #2563EB;
+    margin-bottom: 10px;
+    font-size: 22px
+}
+.faq-box p{
+    color: #555;
+    line-height: 1.6;
+}
